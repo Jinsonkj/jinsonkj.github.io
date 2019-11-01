@@ -1,0 +1,402 @@
+.logo1{
+    width: 50px;
+    height: 50px;
+}
+.abc12{
+    background-color: black;
+}
+.frnt-img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.demo{
+    
+    
+    position: absolute;
+    color: white;
+    z-index: 100;
+    padding-top: 25%;
+    display: block;  
+    margin-left: 25%;
+    margin-right: 25%;
+    -webkit-animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-elliptic-top-fwd 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;  
+ 
+
+}
+.demo h1{
+  
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.demo img{
+    /* padding-left: 80px; */
+    width: 168px;
+    height: 111px;
+    display: block;
+    
+}
+
+
+    
+
+.demo #name{
+color:red;
+}
+
+
+.navbar-nav > a{
+    margin-left:30px;
+    margin-right:30px;
+  }
+ .navbar-brand {
+    margin-left:30px;
+    margin-right:30px;
+
+ }
+.about>h1{
+    font-family: Roboto;
+   
+    color:#707070;
+    font-size:2.5vw; 
+}
+.about>h4{
+    font-family: Roboto;
+   padding-top: 25px;
+    color:#707070;
+    font-size:3vw; 
+}
+.about{
+    margin-top: 3%;
+    float: none;
+}
+.block1{
+    
+    border-bottom: 3px solid red;
+    width: 100px;
+    height: 20px;
+  
+   
+  
+}
+.profieimge{
+    padding-top: 20px !important;
+    width: 165px;
+    height: auto;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition-delay: 1s;
+ 
+}
+.myword{
+    
+    padding-top: 20px;
+    font-size: 19px;
+    line-height: 1.6;
+    font-family: 'Roboto';
+    src: url('roboto.eot'); /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('roboto.woff') format('woff'), /* Modern Browsers */
+    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+   
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+
+
+}
+.downlode{
+    border-radius: 12%;
+    font-size: 18px;
+    font-weight: bold;
+    color:#C2B6B6 ;
+}
+.list1{
+    padding-top: 3%;
+    padding-left:8%;
+}
+.list1 li{
+    list-style-type: disc;
+    display:list-item;
+    line-height: 30px;
+    
+    
+    
+}
+.keyperfomance h4{
+    font-size: 24px;
+    text-shadow: 0 0 0px black;
+    padding-left: 5%;
+    padding-top: 8%;
+    color:#707070;
+}
+
+.keyperfomance{
+ padding-top: 5px;
+ padding-left:5%;
+ 
+
+}
+
+.keyperfomance1{
+    padding-top: 5px;
+    padding-left:5%;
+    
+   
+   }
+   .keyperfomance1 h4{
+    font-size: 24px;
+    text-shadow: 0 0 0px black;
+    padding-left: 5%;
+    padding-top: 5%;
+    color:#707070;
+}
+
+.sub-head{
+    padding-left: 5%;
+    text-shadow: 0 0 0px black;
+    color:#707070;
+    font-size: 15px;
+    padding-top:20px;
+}
+.list2{
+    padding-top: 6px;
+    padding-left:5%;
+    list-style-type: none;
+    display:list-item;
+    line-height: 30px;
+}
+.sub-edu{
+    padding-left: 5%;
+    line-height: 20px;
+    color: #707070;
+    font-size: 15px;
+    padding-top: 15px;
+    
+}
+
+.certi-img-icon{
+    
+    width: 35px;
+    margin-left: 50px;
+  
+}
+.expertize{
+    padding-left: 10%;
+    padding-top:30px; 
+}
+.expertize h6{
+    color:#707070;
+    border-bottom: 5px solid #707070;
+   
+    /* text-decoration: underline; 
+     text-underline-position: below; */
+     width: 80px;
+
+}
+.expertize li{
+    line-height: 50px;
+} 
+
+.works1> div{
+
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    cursor: pointer;
+}
+.works{
+    padding-top: 25px;
+}
+.work-head{
+    padding-top: 20px;
+    width: 100%;
+    margin: 0;
+}
+.work-head h5{
+ 
+    background-color: #707070;
+    color:white;
+}
+.btn-play{
+    width: auto;
+    height: 50px;
+    position: relative;
+    top:-50%;
+   padding-left: 40%;
+   transition: 0.5s;
+   cursor: pointer;
+   opacity: 0;
+}
+.video1:hover .btn-play{
+    opacity: 1;
+
+}
+.modal-content{
+    background: transparent!important;
+    border:none !important;
+
+}
+#UI{
+    margin-top: 50px;
+}
+
+.fade-img img{
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.fade-img img:hover{
+   opacity: 0.07;
+
+}
+
+
+
+.sub-head-connect{
+    text-shadow: 0 0 0px black;
+    color:#707070;
+    font-size: 20px;
+    padding-left: 30%;
+    padding-top: 20px;
+
+    
+}
+
+.icon{
+    width: 30px;
+    height: auto;
+    
+}
+.connect-img{
+    padding-top: 5px;
+    padding-left: 30%;
+}
+.address{
+    padding-left:20px;
+}
+.address1{
+    padding-left:30px;
+}
+
+.full-connect{
+margin-top: 25px;
+}
+
+.form-rounded {
+    border-radius: 4rem;
+    }
+.block2{
+    
+        border-bottom: 3px solid red;
+        width: 100px;
+    
+      
+       
+      
+    }
+
+.footer{
+    padding-top: 20px;
+}
+
+.modal{
+    display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto.eot'); /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('roboto.woff') format('woff'), /* Modern Browsers */
+    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+
+  
+.demo{
+    
+    color:red;
+  
+    
+}
+.demo h1{
+  
+    font-size: 30px;
+}
+.block1{
+    
+    border-bottom: 3px solid green;
+    width: 70px;
+    height: 20px;
+  
+   
+  
+}
+.myword{
+    font-size:13px;
+}
+.downlode{
+    font-weight: bold;
+    font-size: 13px;
+}
+    
+  }
+
+  @media(max-width:300px){
+      .demo{
+          color:yellow;
+         
+          padding-top: 40%;
+         
+    
+      }
+
+      .demo img{
+        width: 50x;
+        height: 50px;
+        display: block;
+        margin-left: -6%;
+        margin-right: auto;
+    }
+    
+        
+      }
+  
+ 
